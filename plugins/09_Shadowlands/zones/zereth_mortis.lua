@@ -32,6 +32,9 @@ local gpose = Map({id = 2029}) -- Gravid Repose
 local microd = Map({id = 2030}) -- Nexus of Actualization
 local cata = Map({id = 2066}) -- Catalyst Wards
 
+-- Sepulcher of the First Ones
+local immo = Map({id = 2047}) -- Immortal Hearth
+
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
@@ -157,7 +160,8 @@ map.nodes[69073662] = Rare({
     rewards = {
         Achievement({id = 15391, criteria = 53025}), -- Adventurer of Zereth Mortis
         Transmog({item = 189951, slot = L['plate']}), -- Sunbathed Avian Armor
-        Transmog({item = 189937, slot = L['cloak']}) -- Garudeon's Blanket of Feathers
+        Transmog({item = 189937, slot = L['cloak']}), -- Garudeon's Blanket of Feathers
+        Transmog({item = 190057, slot = L['warglaive']}) -- Protective Raptora's Wing-Glaive
         -- Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions (engineering)
     },
     pois = {
@@ -206,6 +210,7 @@ map.nodes[80384706] = Rare({
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52986}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189926, slot = L['leather']}), -- Poison-Licked Spaulders
         Transmog({item = 189960, slot = L['plate']}), -- Crouching Legs of the Bufonid
         Transmog({item = 190001, slot = L['shield']}) -- Gorkek's Glistening Throatguard
     },
@@ -284,6 +289,7 @@ map.nodes[54083493] = Rare({
         Achievement({id = 15391, criteria = 53020}), -- Adventurer of Zereth Mortis
         Transmog({item = 189923, slot = L['leather']}), -- Tarachnid's Terrifying Visage
         Transmog({item = 189950, slot = L['mail']}), -- Constrained Prey's Binds
+        Transmog({item = 189769, slot = L['dagger']}), -- Fang of Phestis
         Transmog({item = 190045, slot = L['staff']}) -- Flowing Sandbender's Staff
     },
     pois = {POI({55963261})} -- Cave entrance
@@ -389,7 +395,8 @@ map.nodes[49783914] = Rare({
         Achievement({id = 15391, criteria = 52979}), -- Adventurer of Zereth Mortis
         Transmog({item = 189915, slot = L['cloth']}), -- Tahkwitz' Cloth Ribbon
         Transmog({item = 189933, slot = L['mail']}), -- Vigilant Raptora's Crest
-        Transmog({item = 189954, slot = L['plate']}) -- Lustrous Sentinel's Sabatons
+        Transmog({item = 189954, slot = L['plate']}), -- Lustrous Sentinel's Sabatons
+        Transmog({item = 190003, slot = L['dagger']}) -- Skyward Savior's Talon
         -- Item({item = 187832}) -- Schematic: Pure-Air Sail Extensions (engineering)
     }
 }) -- Tahkwitz
@@ -402,6 +409,7 @@ map.nodes[54507344] = Rare({
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52987}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189967, slot = L['cloth']}), -- Hood of Star Topology
         Transmog({item = 189928, slot = L['leather']}), -- Centripetal Waistband
         Transmog({item = 189966, slot = L['plate']}), -- Singing Metal Wristbands
         Transmog({item = 190055, slot = L['offhand']}) -- Coalescing Energy Implement
@@ -460,6 +468,8 @@ map.nodes[64054975] = Rare({
     rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
     rewards = {
         Achievement({id = 15391, criteria = 52976}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189918, slot = L['leather']}), -- Fleeting Broker's Strides
+        Transmog({item = 189964, slot = L['plate']}), -- Multi-Faceted Belt
         Transmog({item = 190052, slot = L['dagger']}), -- Xy'rath's Letter Opener
         Transmog({item = 190007, slot = L['1h_sword']}), -- Xy'rath's Signature Saber
         Toy({item = 190238}) -- Xy'rath's Booby-Trapped Cache
@@ -1111,6 +1121,7 @@ map.nodes[53777246] = PetSchematic({
     note = L['in_cave'] .. '\n\n' .. L['schematic_treasure_pet_note']
 }) -- Multichicken
 
+-- Waiting for access to the Rondure Alcove on live, which I could not access on PTR
 -- map.nodes[] = PetSchematic({
 --     id = 189440,
 --     quest = 65348,
@@ -1137,11 +1148,11 @@ map.nodes[57837783] = PetSchematic({
     pois = {POI({59328128})}
 }) -- Shelly
 
--- map.nodes[] = PetSchematic({
---     id = 189437,
---     quest = 65336,
---     note = L['schematic_stabilized_geomental_note']
--- }) -- Stabilized Geomental
+map.nodes[83215337] = PetSchematic({
+    id = 189437,
+    quest = 65336,
+    note = L['schematic_stabilized_geomental_note']
+}) -- Stabilized Geomental
 
 map.nodes[67223261] = PetSchematic({
     id = 189443,
@@ -1156,11 +1167,11 @@ esper.nodes[74745037] = PetSchematic({
     note = L['schematic_tunneling_vombata_note']
 }) -- Tunneling Vombata
 
--- map.nodes[] = PetSchematic({
---     id = 189436,
---     quest = 65334,
---     note = L['schematic_violent_poultrid_note']
--- }) -- Violent Poultrid
+map.nodes[34224865] = PetSchematic({
+    id = 189436,
+    quest = 65334,
+    note = L['schematic_violent_poultrid_note']
+}) -- Violent Poultrid
 
 -- Currently no fallback "Protoform Schematic" object for this one, it will always be
 -- obtained from the Library Vault treasure even if you have not unlocked the pet
@@ -1269,6 +1280,7 @@ map.nodes[53166386] = MountSchematic({
 --     note = L['schematic_ineffable_skitterer_note']
 -- }) -- Ineffable Skitterer
 
+-- Wowhead claims this drops from Dune Dominance, need more confirmation
 -- map.nodes[] = MountSchematic({
 --     id = 189459,
 --     quest = 65382,
@@ -1306,11 +1318,12 @@ map.nodes[47680954] = MountSchematic({
     note = L['schematic_scarlet_helicid_note']
 }) -- Scarlet Helicid
 
--- map.nodes[] = MountSchematic({
---     id = 189461,
---     quest = 65384,
---     note = L['schematic_serenade_note']
--- }) -- Serenade
+immo.nodes[45623070] = MountSchematic({
+    id = 189461,
+    quest = 65384,
+    parent = map.id,
+    note = L['schematic_serenade_note']
+}) -- Serenade
 
 map.nodes[60603052] = MountSchematic({
     id = 189456,
@@ -1324,6 +1337,7 @@ map.nodes[63032149] = MountSchematic({
     note = L['schematic_tarachnid_creeper_note']
 }) -- Tarachnid Creeper
 
+-- Waiting for access to the Camber Alcove room
 -- map.nodes[] = MountSchematic({
 --     id = 189463,
 --     quest = 65386,

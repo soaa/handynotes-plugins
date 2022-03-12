@@ -28,7 +28,7 @@ L['macabre_note'] = [[
 ]]
 L['mymaen_note'] = '击杀区域内的腐楠精灵直到他做出表情并出现。'
 L['rainbowhorn_note'] = [[
-找到并点击|cffffff00符文牡鹿的巨角|r来召唤稀有。角可以在炽蓝仙野多个地点刷新。
+找到并点击 |cffffff00符文牡鹿的巨角|r 来召唤稀有。角可以在炽蓝仙野多个地点刷新。
 
 他总是在瓦尔仙林北侧刷新，所以设定 {item:6948} 到这里并留意区域的表情。
 
@@ -759,7 +759,7 @@ L['cache_toccatian'] = '弹奏宝箱'
 L['schematic_treasure_note'] = '|cFFFF8C00如果尚未解锁合成，此宝藏将不包含原生体结构图。如果您已经拾取了宝藏，会在附近的地面上找到结构图。|r'
 L['schematic_treasure_mount_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁坐骑合成之前打开宝藏，结构图会在这里找到。|r'
 L['schematic_treasure_pet_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁宠物合成之前打开宝藏，结构图会在这里找到。|r'
-L['schematic_bronze_helicid_note'] = '一周两次任务 {quest:65324} 的 {item:190610} 内几率发现。'
+L['schematic_bronze_helicid_note'] = '每周任务 {quest:65324} 的 {item:190610} 内几率发现。'
 L['schematic_ambystan_darter_note'] = '隐藏在 {npc:185312} 旁边的水下。'
 L['schematic_bronzewing_vespoid_note'] = '孕育栖地内。'
 L['schematic_buzz_note'] = '{npc:185265} 内有几率发现。'
@@ -779,16 +779,19 @@ L['schematic_raptora_swooper_note'] = '塑形之厅内发现。'
 L['schematic_resonant_echo_note'] = '|cFFFFFD00原初之歌的晶化回响|r 内几率发现。'
 L['schematic_russet_bufonid_note'] = '{item:187780} 巅峰宝箱内几率发现。'
 L['schematic_scarlet_helicid_note'] = '在拱形建筑物顶上发现。'
+L['schematic_serenade_note'] = '位于团队区域 |cFFFFFD00不朽休憩所|r 一个浮动平台下方的链条上。'
 L['schematic_shelly_note'] = '位于词汇岩窟书架的背面。需要传送技能才能爬上书架。'
+L['schematic_stabilized_geomental_note'] = '|cFFFFFD00初诞者圣墓|r 团队内 {npc:182169} 有几率掉落。'
 L['schematic_tarachnid_creeper_note'] = '无尽流沙的小型建筑物内。'
 L['schematic_terror_jelly_note'] = '位于坡道旁边的方形塔顶上。'
 L['schematic_tunneling_vombata_note'] = '魂灵音室建筑群内一条堵塞的隧道中的一些瓦砾旁边。'
 L['schematic_vespoid_flutterer_note'] = '共振群山的第一位点层一堆沙子上延伸。'
+L['schematic_violent_poultrid_note'] = '{daily:65256} 日常任务有几率掉落。'
 
 L['concordance_excitable'] = '可激发的索引台'
 L['concordance_mercurial'] = '善变索引台'
 L['concordance_tranquil'] = '宁静索引台'
-L['concordance_note'] = '阅读每个索引解锁位于|cFFFFFD00流亡洞穴|r 的 |cFFFFFD00知识控制台|r 条目。'
+L['concordance_note'] = '阅读每个索引解锁位于 |cFFFFFD00流亡洞穴|r 的 |cFFFFFD00知识控制台|r 条目。'
 
 L['echoed_jiro_note'] = '耗费 {npc:181059} 能量获得临时增益。需要 {npc:181397} 的 |cFFFFFD00创音词|r 研究。'
 

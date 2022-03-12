@@ -688,19 +688,19 @@ L['helmix_note'] = [[
 |cFFFF8C00地面在震動…有東西在地底下鑽洞！|r
 ]]
 L['hirukon_note'] = [[
-要引誘 {npc:180978} 到水面, 需要製造一個 {item:187923}.
+要引誘 {npc:180978} 到水面, 需要取得一個 {item:187923}.
 
 1. 從附近的水里釣起 {item:187662}.
 
-2. 從贊格沼澤的盤牙蓄湖內的 |cFFFFFD00Pungent Blobfish Cluster|r 釣起一個 {item:187915}. 當你進入山洞後魚群會在你的右手邊.
+2. 從贊格沼澤的盤牙蓄湖內的 |cFFFFFD00刺鼻的水滴魚群|r 釣起一個 {item:187915}. 當你從排水孔進入後魚群會在你的右手邊.
 
-3. 從納沙塔爾的凱爾亞的墳墓飛行點附近的 |cFFFFFD00翻滾魚群|r 釣起一個 {item:187922}.
+3. 從納沙塔爾的凱爾亞的墳墓飛行點附近的 |cFFFFFD00翻滾水母群|r 釣起一個 {item:187922}.
 
 4. 在閃光瀚洋的納爾朔拉殿堂的二樓陽台 (34.7, 75.0) 拾取 {item:187916} (藏得很好).
 
-5. 在瑪卓薩斯的統御者之座南邊的池塘找到 {npc:182194}. 並請他製作成 {item:187923}.
+5. 在瑪卓薩斯的統御者之座南邊的池塘南側找到 {npc:182194}. 並請他將材料製作成 {item:187923}.
 
-6. 使用 {item:187923}, 允許你可以在 {npc:180978} 附近看到 |cFFFFFD00Aurelid Cluster|r 的魚群15分鐘. 在魚群中釣魚來召喚 {npc:180978} 到水面.
+6. 使用 {item:187923}, 能夠讓你可以在 {npc:180978} 的附近看到 |cFFFFFD00元基水母魚群|r 15分鐘. 在魚群中釣魚來召喚 {npc:180978} 到水面.
 ]]
 L['orixal_note'] = '與巡邏此地的 {npc:185487} 共享重生'
 L['protector_first_ones_note'] = '需要兩人. 攜帶對應的符文 (可以在附近區域找到) 到各個控制台來開啟屏障.'
@@ -713,7 +713,7 @@ L['crushed_crate_note'] = '撿起寶藏上方的大柱子上的 {item:189767}. �
 L['domination_cache_note'] = '在此區域的 {npc:181403} 和 {npc:182426} 有低機率掉落 {item:189704}'
 L['drowned_broker_supplies_note'] = '與 {npc:181059} 對話來取得附近 {npc:185282} 的控制'
 L['forgotten_protovault_note'] = '僅在世界任務 {wq:蛙蛙} 期間內可取得.'
-L['grateful_boon_note'] = '無法飛行時很難到達, 使用 {spell:300728} 或 {spell:111771} 來爬過山, 舒緩此區域所有的12個生物 {npc:185293} 會刷新寶藏'
+L['grateful_boon_note'] = '無法飛行時很難到達, 使用 {spell:300728} 或 {spell:111771} 來翻過山, 撫摸此區域的共12個生物 {npc:185293} 會給予寶藏'
 L['library_vault_note'] = '在詞彙石窟點擊石板直到你找到正確的 {spell:362062} 增益來開啟寶庫.'
 L['mistaken_ovoid_note'] = '在次元瀑布洞穴內, 你需要在澤瑞斯莫提斯的綠色區域取得 5個 {item:190239} 然後回來交給 {npc:185280} 他會挪開一點讓你拿到寶藏.'
 L['ripened_protopear_note'] = '開始 {quest:64641} 任務鏈來獲得進入繁盛鑄造場. 在裡面收集5個 {spell:367180} (綠色雲)並且帶給 {npc:185416} 來為她授粉'
@@ -756,34 +756,37 @@ L['cache_glissandian'] = '格里桑迪安原鎖'
 L['cache_mezzonic'] = '梅索尼克原鎖'
 L['cache_toccatian'] = '托卡提安原鎖'
 
-L['schematic_treasure_note'] = '|cFFFF8C00在你還沒有解鎖合成器時此寶藏不會含有結構圖. 如果你已經撿過寶藏後才解鎖, 你可以在旁邊的地上找到結構圖.|r'
-L['schematic_treasure_mount_note'] = '|cFFFF8C00此結構圖可以在附近的一次性寶藏找到. 如果你在解鎖坐騎合成器之前開啟了寶藏, 你可以在此找到結構圖.|r'
-L['schematic_treasure_pet_note'] = '|cFFFF8C00此結構圖可以在附近的一次性寶藏找到. 如果你在解鎖寵物合成器之前開啟了寶藏, 你可以在此找到結構圖.|r'
-L['schematic_bronze_helicid_note'] = '有機率從雙周任務 {quest:65324} 的 {item:190610} 內被找到'
+L['schematic_treasure_note'] = '|cFFFF8C00在你還沒有解鎖合成器時此寶藏不會含有結構圖. 如果你在解鎖前已撿過寶藏, 你可以在旁邊的地上找到結構圖.|r'
+L['schematic_treasure_mount_note'] = '|cFFFF8C00此結構圖可以在附近的一次性寶藏找到. 如果你在解鎖坐騎合成器之前撿過了寶藏, 你可以在此找到結構圖.|r'
+L['schematic_treasure_pet_note'] = '|cFFFF8C00此結構圖可以在附近的一次性寶藏找到. 如果你在解鎖寵物合成器之前撿過了寶藏, 你可以在此找到結構圖.|r'
+L['schematic_bronze_helicid_note'] = '有機率從每周任務 {quest:65324} 的 {item:190610} 內被找到'
 L['schematic_ambystan_darter_note'] = '藏在水下 {npc:185312} 附近'
 L['schematic_bronzewing_vespoid_note'] = '在育生棲地內'
 L['schematic_buzz_note'] = '在 {npc:185265} 內有機率找到'
 L['schematic_darkened_vombata_note'] = '在一個漂浮的籠子內'
-L['schematic_deathrunner_note'] = '作為 {spell:366367} 的一部分解鎖任務鏈來取得'
+L['schematic_deathrunner_note'] = '作為 {spell:366367} 的解鎖任務中一部分的獎勵'
 L['schematic_desertwing_hunter_note'] = '在柱子頂端'
 L['schematic_fierce_scarabid_note'] = '藏在 {npc:181870} 所站的平台底下'
-L['schematic_forged_spiteflyer_note'] = '從原蜂巢群中伸出'
+L['schematic_forged_spiteflyer_note'] = '插在原蜂巢群中'
 L['schematic_genesis_crawler_note'] = '在創始密室入口的頂端找到'
 L['schematic_goldplate_bufonid_note'] = '{npc:178803} 有低機率掉落'
 L['schematic_heartbond_lupine_note'] = '{npc:179939} 有低機率掉落'
 L['schematic_leaping_leporid_note'] = '在一顆漂浮的樹頂端可以找到'
-L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上， 被蓋在一些葉子下方'
+L['schematic_microlicid_note'] = '在漂浮樹最低的枝幹上, 被蓋在一些葉子下方'
 L['schematic_pale_regal_cervid_note'] = '在 {npc:181397} 處研究所有的暗語來取得 {achievement:15402}.'
 L['schematic_prototickles_note'] = '在稀有 {npc:180978} 上方的藤蔓內，和一個漂浮的鍊子相連著'
 L['schematic_raptora_swooper_note'] = '在轉化廳內找到'
 L['schematic_resonant_echo_note'] = '有機率在 {item:189172} 內找到'
 L['schematic_russet_bufonid_note'] = '有機率在 {item:187780} 巔峰箱內找到'
-L['schematic_scarlet_helicid_note'] = '在拱形建築頂端可以被找到'
+L['schematic_scarlet_helicid_note'] = '在拱形建築頂端可以找到'
+L['schematic_serenade_note'] = '在團本內的 |cFFFFFD00不朽休憩地|r 區域裡, 在一個漂浮平臺下方的鍊子'
 L['schematic_shelly_note'] = '在詞彙石窟裡的書櫃的背面凹洞內. 需要使用傳送技能來到達'
+L['schematic_stabilized_geomental_note'] = '有機率從 |cFFFFFD00守護者聖塚|r 團本內的 {npc:182169} 掉落.'
 L['schematic_tarachnid_creeper_note'] = '在無盡沙海內的一個小建築內'
 L['schematic_terror_jelly_note'] = '在坡道旁的方形塔頂端'
 L['schematic_tunneling_vombata_note'] = '在洛克利安魂核內一個被堵塞的隧道裡的瓦礫旁'
-L['schematic_vespoid_flutterer_note'] = '在鳴響山嶽的第一位點的一堆沙中伸出'
+L['schematic_vespoid_flutterer_note'] = '插在鳴響山嶽的第一樞位的一堆沙中'
+L['schematic_violent_poultrid_note'] = '有機率從每日任務 {daily:65256} 掉落'
 
 L['concordance_excitable'] = '躁動索引'
 L['concordance_mercurial'] = '易變索引'
