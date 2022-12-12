@@ -131,7 +131,7 @@ L['temperamental_skyclaw_note'] = nil
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
 
-L['bag_of_enchanted_wind'] = nil
+L['bag_of_enchanted_wind'] = '마력 깃든 바람 가방'
 L['bag_of_enchanted_wind_note'] = nil
 L['hessethiash_treasure'] = nil
 L['lost_draconic_hourglass'] = nil
@@ -217,7 +217,7 @@ L['sandy_wooden_duck_note'] = nil
 L['tasty_hatchling_treat_note'] = nil
 
 L['pm_mining_bridgette_holdug'] = nil
-L['pm_tailor_elysa_raywinder'] = nil
+L['pm_tailor_elysa_raywinder'] = '탑 위로 중간쯤 튀어나온 선반 위에 있음'
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
 L['pt_ench_fractured_titanic_sphere_note'] = nil
@@ -243,7 +243,7 @@ L['options_icons_specialties_desc'] = nil
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = nil
 L['new_perspective_note'] = nil
-L['ruby_feast_gourmand'] = nil
+L['ruby_feast_gourmand'] = '매일 무작위로 선정된 요리사가 서로 다른 음식과 음료를 제공합니다.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -261,7 +261,7 @@ L['slurpo_snail_note'] = nil
 L['worldcarver_atir_note'] = nil
 
 L['bubble_drifter_note'] = nil
-L['dead_mans_chestplate_note'] = nil
+L['dead_mans_chestplate_note'] = '탑 내부 중간층에 있음'
 L['fullsails_supply_chest_note'] = nil
 L['golden_dragon_goblet_note'] = nil
 L['misty_treasure_chest_note'] = nil
@@ -277,9 +277,9 @@ L['pm_skin_zenzi'] = nil
 L['pm_smith_grekka_anvilsmash'] = nil
 L['pt_alch_frostforged_potion_note'] = nil
 L['pt_alch_well_insulated_mug_note'] = nil
-L['pt_ench_enchanted_debris_note'] = nil
-L['pt_ench_flashfrozen_scroll_note'] = nil
-L['pt_ench_lava_infused_seed_note'] = nil
+L['pt_ench_enchanted_debris_note'] = '{npc:194872}를 사용하여 따라가면 마지막에 잔해를 주울 수 있습니다.'
+L['pt_ench_flashfrozen_scroll_note'] = '|cFFFFFD00섬광서리 거주지|r 내부에 있음.'
+L['pt_ench_lava_infused_seed_note'] = '|cFFFFFD00비늘파괴자 성채|r 지역 꽃 안에 있음.'
 L['pt_engi_boomthyr_rocket_note'] = nil
 L['pt_engi_intact_coil_capacitor_note'] = nil
 L['pt_jewel_closely_guarded_shiny_note'] = nil
@@ -292,15 +292,15 @@ L['pt_smith_curious_ingots_note'] = nil
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = nil
 L['pt_smith_molten_ingot_note'] = nil
 L['pt_smith_qalashi_weapon_diagram_note'] = nil
-L['pt_tailor_itinerant_singed_fabric_note'] = nil
-L['pt_tailor_mysterious_banner_note'] = nil
+L['pt_tailor_itinerant_singed_fabric_note'] = '보스몹이 있는 동굴 입구 바로 앞 나무에 걸려있음. ' .. ns.color.Orange('용조련술로 정확하게 착지하거나 흑마법사 관문 필요')
+L['pt_tailor_mysterious_banner_note'] = '건물 꼭대기에서 펄럭이고 있음'
 
-L['quack_week_1'] = nil
-L['quack_week_2'] = nil
-L['quack_week_3'] = nil
-L['quack_week_4'] = nil
-L['quack_week_5'] = nil
-L['lets_get_quacking'] = nil
+L['quack_week_1'] = '1주차'
+L['quack_week_2'] = '2주차'
+L['quack_week_3'] = '3주차'
+L['quack_week_4'] = '4주차'
+L['quack_week_5'] = '5주차'
+L['lets_get_quacking'] = '매주 {npc:187863} 한마리씩만 구출할 수 있습니다.'
 
 L['complaint_to_scalepiercer_note'] = nil
 L['grand_flames_journal_note'] = nil
