@@ -6,7 +6,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_385'] = nil
+L['elite_loot_385'] = '다른 희귀몹보다 더 높은 레벨의 장비를 드랍합니다.'
 L['gem_cluster_note'] = '필요한 아이템은 용비늘 원전대 영예 21이 되면 원정대 정찰병의 짐과 흐트러진 흙에서 얻을 수 있습니다.'
 
 L['options_icons_bonus_boss'] = nil
@@ -48,9 +48,9 @@ L['scout_pack'] = '원정대 정찰병의 짐'
 L['options_icons_scout_pack'] = '원정대 정찰병의 짐'
 L['options_icons_scout_pack_desc'] = '원정대 정찰병의 짐 위치를 표시합니다.'
 
-L['magicbound_chest'] = nil
-L['options_icons_magicbound_chest'] = nil
-L['options_icons_magicbound_chest_desc'] = nil
+L['magicbound_chest'] = '마법결속 보관함'
+L['options_icons_magicbound_chest'] = '마법결속 보관함'
+L['options_icons_magicbound_chest_desc'] = '마법결속 보관함의 위치를 표시합니다.'
 
 L['dr_best'] = '개인 최고 기록:\n - 일반: %.3f초\n - 고급: %.3f초'
 L['dr_best_dash'] = '개인 최고 기록:\n - %.3f초'
@@ -86,7 +86,7 @@ L['options_icons_legendary_album_desc'] = '{achievement:16570} 업적을 위한 
 -------------------------------------------------------------------------------
 
 L['brackenhide_rare_note'] = '{npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 순서로 10분 단위로 젠됩니다.'
-L['fisherman_tinnak_note'] = 'Collect |cFFFFFD00망가진 낚싯대|r, |cFFFFFD00찢어진 낚시 그물|r, |cFFFFFD00오래된 작살|r을 모두 수집하면 생성됩니다.'
+L['fisherman_tinnak_note'] = '|cFFFFFD00망가진 낚싯대|r, |cFFFFFD00찢어진 낚시 그물|r, |cFFFFFD00오래된 작살|r을 모두 수집하면 생성됩니다.'
 L['spellwrought_snowman_note'] = '{npc:193424} 10개를 모아 {npc:193242}로 가져갑니다.'
 L['trilvarus_loreweaver_note'] = '|cFFFFFD00노래하는 파편|r을 클릭하여 {spell:382076} 효과를 얻어 |cFFFFFD00방전된 집중 장치|r를 활성화하면 생성됩니다.'
 
@@ -97,23 +97,23 @@ L['gnoll_fiend_flail_note'] = '{item:199066}는 원정대 정찰병의 짐과 �
 L['pepper_hammer_note'] = '아래 있는 |cFFFFFD00나무 수액|r을 수집한 후 |cFFFFFD00막대|r를 사용하여 {npc:195373}를 불러냅니다.\n\n|cFFFF0000(버그: 막대를 클릭하려면 재시작이 필요할 수 있습니다)|r'
 L['snow_covered_scroll'] = '눈으로 뒤덮힌 두루마리'
 
-L['pm_engi_frizz_buzzcrank'] = nil
+L['pm_engi_frizz_buzzcrank'] = '사원 옆에 서있음'
 L['pm_jewel_pluutar'] = '건물 안에 있음'
-L['pm_script_lydiara_whisperfeather'] = nil
-L['pt_alch_experimental_decay_sample_note'] = nil
+L['pm_script_lydiara_whisperfeather'] = '의자에 앉아 있음'
+L['pt_alch_experimental_decay_sample_note'] = '커다란 녹색 가마솥 안에 있음'
 L['pt_alch_firewater_powder_sample_note'] = nil
-L['pt_ench_enriched_earthen_shard_note'] = nil
-L['pt_ench_faintly_enchanted_remains_note'] = nil
+L['pt_ench_enriched_earthen_shard_note'] = '바위 더미 위에 있음'
+L['pt_ench_faintly_enchanted_remains_note'] = '|cFFFFFD00마나에 굶주린 수정 묶음|r을 클릭하여 소환된 몹을 잡은 후 생성되는 잔재를 습득합니다.'
 L['pt_ench_forgotten_arcane_tome_note'] = nil
-L['pt_jewel_crystalline_overgrowth_note'] = nil
+L['pt_jewel_crystalline_overgrowth_note'] = '작은 연못 옆에 있음'
 L['pt_jewel_harmonic_crystal_harmonizer_note'] = nil
-L['pt_leath_decay_infused_tanning_oil_note'] = nil
+L['pt_leath_decay_infused_tanning_oil_note'] = '통 안에 있음'
 L['pt_leath_treated_hides_note'] = nil
 L['pt_leath_well_danced_drum_note'] = nil
 L['pt_script_dusty_darkmoon_card_note'] = nil
 L['pt_script_frosted_parchment_note'] = nil
 L['pt_smith_spelltouched_tongs_note'] = nil
-L['pt_tailor_decaying_brackenhide_blanket_note'] = nil
+L['pt_tailor_decaying_brackenhide_blanket_note'] = '천막 안쪽 나무에 걸려있음'
 L['pt_tailor_intriguing_bolt_of_blue_cloth_note'] = nil
 
 L['leyline_note'] = nil
@@ -122,7 +122,7 @@ L['options_icons_leyline_desc'] = nil
 
 L['river_rapids_wrangler_note'] = nil
 L['seeing_blue_note'] = nil
-L['snowman_note'] = nil
+L['snowman_note'] = '주변에 {npc:197599} 3개가 놓여있습니다. (다른 플레이어가 이미 사용 중일수도 있음) 눈덩이 모두 굴려 {npc:197838}와 {npc:197839}에게 가져가 눈사람을 만듭니다.\n눈덩이를 각각 적당한 크기로 키우면 업적을 획득할 수 있습니다.'
 
 L['snowclaw_cub_note_start'] = nil
 L['snowclaw_cub_note_item1'] = nil
@@ -133,7 +133,7 @@ L['tome_of_polymoph_duck'] = nil
 
 L['temperamental_skyclaw_note'] = nil
 
-L['elder_poa_note'] = nil
+L['elder_poa_note'] = '{item:200071}을 반납하여 |cFFFFFD00이스카라 투스카르|r 평판을 획득합니다.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -222,40 +222,41 @@ L['acorn_harvester_note'] = nil
 L['cracked_hourglass_note'] = nil
 L['sandy_wooden_duck_note'] = nil
 
-L['tasty_hatchling_treat_note'] = nil
+L['tasty_hatchling_treat_note'] = '책장 뒤에 있는 통에서 얻을 수 있음'
 
 L['pm_mining_bridgette_holdug'] = nil
 L['pm_tailor_elysa_raywinder'] = '탑 위로 중간쯤 튀어나온 선반 위에 있음'
 L['pt_alch_contraband_concoction_note'] = nil
 L['pt_alch_furry_gloop_note'] = nil
-L['pt_ench_fractured_titanic_sphere_note'] = nil
-L['pt_jewel_alexstraszite_cluster_note'] = nil
+L['pt_ench_fractured_titanic_sphere_note'] = '|cFFFFFD00티르홀드|r 남쪽에 있음'
+L['pt_jewel_alexstraszite_cluster_note'] = '|cFFFFFD00Tyrhold|r 내에 있음'
 L['pt_jewel_painters_pretty_jewel_note'] = nil
-L['pt_leath_decayed_scales_note'] = nil
+L['pt_leath_decayed_scales_note'] = '바구니 안에 있음'
 L['pt_script_counterfeit_darkmoon_deck_note'] = nil
 L['pt_script_forgetful_apprentices_tome_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = nil
 L['pt_smith_draconic_flux_note'] = nil
 L['pt_tailor_ancient_dragonweave_bolt_note'] = nil
-L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = nil
+L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = '모래에 파묻혀 있음'
 
-L['picante_pomfruit_cake_note'] = nil
-L['icecrown_bleu_note'] = nil
-L['dreamwarding_dripbrew_note'] = nil
-L['arcanostabilized_provisions_note'] = nil
-L['steamed_scarab_steak_note'] = nil
-L['craft_creche_crowler_note'] = nil
-L['bivigosas_blood_sausages_note'] = nil
+L['picante_pomfruit_cake_note'] = '{item:200904}이 제공될 때까지 |cFF00CCFF루비 연회장|r을 매일 체크해야 합니다. 연회장에 방문하면 {achievement:16556} 업적을 위해 3가지 음식을 모두 맛보는 것을 잊지마세요.'
+L['icecrown_bleu_note'] = '|cFF00CCFF장인 무역시장|r에 있는 {npc:196729} ' .. ns.color.NPC('<치즈 상인>') .. '이 판매합니다.'
+L['dreamwarding_dripbrew_note'] = '|cFFFFFD00The Late Night Lab|r에 있는 {npc:197872} ' .. ns.color.NPC('<Caffeinomancer>') .. '이 판매합니다.'
+L['arcanostabilized_provisions_note'] = '|cFF00CCFFTemporal Conflux|r in the |cFF00CCFFPrimalist Future|r에 있는 {npc:198831} ' .. ns.color.NPC('<Head Chef>') .. '이 판매합니다.'
+L['steamed_scarab_steak_note'] = '|cFFFFFD00Serene Dreams Spa|r에 있는 {npc:197586} ' .. ns.color.NPC('<Spa Bartender>') .. '이 판매합니다.'
+L['craft_creche_crowler_note'] = '|cFFFFFD00Ruby Lifeshrine|r, |cFFFFFD00Greenscale Inn|r, |cFFFFFD00두멧골 야영지|r, |cFFFFFD00Temporal Conflux|r 중 한 곳을 매일 무작위로 방문하는 {npc:187444} ' .. ns.color.NPC('<Traveling Dragonbrew Vendor>') .. '이 판매합니다.'
+L['bivigosas_blood_sausages_note'] = '|cFFFFFD00겔리키르 초소|r에 있는 {npc:188895} ' .. ns.color.NPC('<음식과 음료>') .. '이 판매합니다.'
 L['options_icons_specialties'] = nil
-L['options_icons_specialties_desc'] = nil
+L['options_icons_specialties_desc'] = '{achievement:16621} 업적을 위한 음식과 음료의 위치를 표시합니다.'
 
-L['new_perspective_note'] = nil
+
+L['new_perspective_note'] = '절경에서 "셀카" 사진기로 사진을 촬영하세요. 올바른 위치에서 카메라 모드로 진입하면 보라색 빛기둥이 표시됩니다.\n\n업적 진행이 안될 경우 시야를 변경해보세요.'
 L['options_icons_new_perspective'] = nil
-L['options_icons_new_perspective_desc'] = nil
+L['options_icons_new_perspective_desc'] = '{achievement:16634} 업적을 위한 절경의 위치를 표시합니다.'
 
 L['ruby_feast_gourmand'] = '매일 무작위로 선정된 요리사가 서로 다른 음식과 음료를 제공합니다.'
 
-L['sorotis_note'] = nil
+L['sorotis_note'] = '{item:199906}을 반납하여 |cFFFFFD00발드라켄 협의회|r 평판을 획득합니다.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -319,16 +320,16 @@ L['grand_flames_journal_note'] = nil
 L['wyrmeaters_recipe_note'] = nil
 
 L['options_icons_ducklings'] = nil
-L['options_icons_ducklings_desc'] = nil
+L['options_icons_ducklings_desc'] = '{achievement:16409} 업적을 위한 새끼 오리의 위치를 표시합니다.'
 L['options_icons_chiseled_record'] = nil
-L['options_icons_chiseled_record_desc'] = nil
+L['options_icons_chiseled_record_desc'] = '{achievement:16412} 업적을 위한 석판의 위치를 표시합니다.'
 
-L['grand_theft_mammoth_note'] = nil
+L['grand_theft_mammoth_note'] = '{npc:194625}를 타고 {npc:198163}에게 데려갑니다.\n\n|cFFFF0000(버그: {npc:194625}와 상호작용할 수 없을 경우, /reload 하세요.)|r'
 L['options_icons_grand_theft_mammoth'] = nil
-L['options_icons_grand_theft_mammoth_desc'] = nil
+L['options_icons_grand_theft_mammoth_desc'] = '{achievement:16493} 업적을 위한 {npc:194625}의 위치를 표시합니다.'
 
 L['options_icons_stories'] = nil
-L['options_icons_stories_desc'] = nil
+L['options_icons_stories_desc'] = '{achievement:16406} 업적을 위한 퀘스트 위치를 표시합니다.'
 L['all_sides_of_the_story_garrick_and_shuja_note'] = nil
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = nil
 L['all_sides_of_the_story_tarjin_note'] = nil
@@ -349,7 +350,7 @@ L['otto_note_item3'] = nil
 L['otto_note_end'] = nil
 
 L['options_icons_safari'] = nil
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = '{achievement:16519} 업적을 위한 전투애완동물의 위치를 표시합니다.'
 L['shyfly_note'] = nil
 
 L['cataloger_jakes_note'] = nil
